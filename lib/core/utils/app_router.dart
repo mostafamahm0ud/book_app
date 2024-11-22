@@ -4,7 +4,6 @@ import 'package:book_app/features/home/presentation/views/home_view.dart';
 import 'package:book_app/features/search/presentation/views/search_view.dart';
 import 'package:go_router/go_router.dart';
 
-
 abstract class AppRouter {
   static const kHomeView = '/homeView';
   static const kBookDetailsView = '/bookDetailsView';
