@@ -1,3 +1,4 @@
+import 'package:book_app/core/utils/assets.dart';
 import 'package:flutter/material.dart';
 
 import '../../../../../core/utils/styles.dart';
@@ -18,7 +19,7 @@ class BookDetailsSection extends StatelessWidget {
           padding: EdgeInsets.symmetric(
             horizontal: width * .2,
           ),
-          child: const CustomBookImage(),
+          child: const CustomBookImage(imageUrl: AssetsData.testImage,),
         ),
         const SizedBox(
           height: 43,
